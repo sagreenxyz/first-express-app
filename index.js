@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/second', (req, res) => {
-    res.send('My Second Page!');
+    res.send('second page!');
 })
 
 app.listen(3000);
