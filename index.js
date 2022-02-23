@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 })
 
+app.get('/second', (req, res) => {
+    res.send('My Second Page!');
+})
+
 app.listen(3000);
 
 /*
